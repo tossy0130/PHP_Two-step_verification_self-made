@@ -1,0 +1,906 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 599px) {
+/* ================================== スマホ　デザイン ================================== */
+
+ /* ヘッダーカラー　*/
+  /* ヘッダーカラー　*/
+  .jumbotron {
+    background: rgb(78,182,57);
+    background:linear-gradient(12deg, rgba(78,182,57,1) 0%, rgba(120,208,106.1) 63%);
+
+}
+ .m_h1 {color: #555 !important;}
+ .lead {color: #555;} 
+
+/* =================== トップページ index ===================== */
+
+#btn {font-size: 1.4em !important;padding: 1.4em 1.5em !important;}
+
+ 
+ /* フッター */
+ footer {position: fixed;bottom: 0;width: 100%;}
+ 
+
+.maile_c { margin: 30px 15px 15px 15px;}
+/* ラベル 01 */
+.label_01 {font-size: 1.2em;margin: 0.8em 0em;}
+/* メールテキストエリア */
+#mail {width: 95%;height: auto;font-size: 1.5em;padding: 0.45em 0.2em; margin-bottom: 35px;}
+/* ボタン　（送信） */
+.btn {width: 95%;height: auto;font-size: 1.2em;padding: 1.2em 0.2em;letter-spacing: 0.2em;
+
+}
+
+/*=============================== url_go index.php ================================ */
+
+/*================ カレントページ　表示エリア ================= */
+
+#cr_box {
+    width: 80% !important;
+}
+
+
+.form-flow-active {
+    color: #fff !important;
+    background-color: #47cc64;
+}
+.form-flow-list-wrap {
+    position: relative;
+    padding-left: 0%;
+}
+
+
+.form-flow-list-allow {
+    position: relative;
+}
+
+
+.form-flow-list-wrap {
+    position: relative;padding-left: 3%;border: 3px solid #47cc64;
+    border-radius: 10px;color: #6c757d;font-size: 0.98em;font-weight: 600;
+}
+
+.form-flow-list-wrap .form-flow-list-no {
+    position: absolute;top: -25px;left: -13%;
+    width: 40px;height: 40px;border-radius: 50%;
+    color: #fff;background-color: #6c757d; line-height: 1.2;
+    font-size: 2rem;
+}
+
+.form-flow-list-allow::after {
+    position: absolute;top: 27%;left: 43%;
+    width: 0px;height: 0px;display: block;
+    content: "";border-top: 15px solid transparent;
+    border-left: 15px solid transparent; border-left-color: transparent;
+    border-right: 0px solid transparent;border-bottom: 15px solid transparent;
+    border-left-color: #47cc64;
+}
+
+div.col-2.form-flow-list-wrap.py-3 {height: 8em !important;}
+
+
+/* ============================== register.php フォーム入力エリア ===============================*/
+
+
+.form-input-tbl-inner dt {
+    display: block;background: #f5f5f0;
+    font-size: 12px;padding-top: 20px;padding-right: 10px;
+    padding-bottom: 20px;padding-left: 15px;width: 100%;
+    word-break: break-all;text-align: center;
+    margin-bottom: 1.2em !important;
+}
+
+
+/* ホバー　色変更　共通ボタン */
+.csv_btn_3 {background-color:#cee2f7 !important; 
+    transition: background-color 0.77s; border: none;
+    width: 90% !important;height: auto;padding: 0.8em 1em !important;
+    font-size: 14px !important;
+   }
+
+.csv_btn_3:hover {
+    border: 1px solid transparent;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+
+/* 郵便番号　の　文字部分 */
+#haifun {font-size: 11px !important;}
+
+
+/* === 生年月日 === */
+.jsc-select-bold {
+    color: #333;font-size: 16px !important;font-weight: 700;
+}
+
+/* === 文字の　年　月　日 span === */
+.period-m {
+    font-weight: 700;font-size: 14px;margin: 0 5px;vertical-align: bottom;
+}
+
+/* === 西暦 === */
+.app_input_form {
+    background-color: #fff;border: 1px solid #ccc; -webkit-border-radius: 5px;
+    border-radius: 5px;-webkit-box-sizing: border-box;box-sizing: border-box;
+    font-size: 14px;height: 41px;outline: 0;
+    padding-bottom: 7px;padding-left: 9px;padding-right: 9px;padding-top: 7px;
+    margin: .5em .5em .5em 0;
+}
+
+/* === 月 === */
+.date-birth-month {
+    background-color: #fff;border: 1px solid #ccc; -webkit-border-radius: 5px;
+    border-radius: 5px;-webkit-box-sizing: border-box;box-sizing: border-box;
+    font-size: 14px;height: 41px;outline: 0;
+    padding-bottom: 7px;padding-left: 9px;padding-right: 9px;padding-top: 7px;
+}
+
+/* === 日 === */
+.date-birth-day {
+    background-color: #fff;border: 1px solid #ccc; -webkit-border-radius: 5px;
+    border-radius: 5px;-webkit-box-sizing: border-box;box-sizing: border-box;
+    font-size: 14px;height: 41px;outline: 0;
+    padding-bottom: 7px;padding-left: 9px;padding-right: 9px;padding-top: 7px;
+}
+
+ /* ボタン　戻る */
+ #send_btn_02 {background-color:#bed8f1;  transition: background-color 0.77s; 
+    font-size: 14px !important;border: 1px solid #ced4da;
+} 
+ #send_btn_02:hover {
+    border: 1px solid transparent;
+    background-color: #0e84d7 !important;
+    opacity: 1;
+}
+
+ /* ボタン　送信 */
+ #back_btn_02 {background-color:#bed8f1; transition: background-color 0.77s; 
+    font-size: 14px !important;border: 1px solid #ced4da;}
+
+ #back_btn_02:hover {
+    border: 1px solid transparent;
+    background-color: #0e84d7 !important;
+    opacity: 1;
+}
+
+
+/*============ url_go confrm.php ===============*/
+
+#url_go_send_btn {
+    background-color:#d0e3f7;  transition: background-color 0.77s;
+    font-size: 14px !important;
+}
+
+#url_go_send_btn:hover {
+    border: 1px solid transparent;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+#url_go_back_btn {
+    background-color:#d0e3f7;  transition: background-color 0.77s; 
+    font-size: 14px !important;
+}
+
+#url_go_back_btn:hover {
+    border: 1px solid transparent;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+
+ /*================  「戻るボタン」「送信」 ボタン =================== */
+ .e_btn {width: 55%;height: auto;padding: 0.9em;font-size: 1.2em;color: #fff; transition: ease-in;}
+ /* ボタン　戻る */
+ #send_btn {background-color:#d0e3f7;  transition: background-color 0.77s; border: none;} 
+ #send_btn:hover {
+    border: 1px solid transparent;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+ /* ボタン　送信 */
+ #back_btn {background-color:#d0e3f7; transition: background-color 0.77s; border: none;}
+ #back_btn:hover {
+    border: 1px solid transparent;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+
+ /* ホバー　色変更　共通ボタン */
+.csv_btn {background-color:#d0e3f7 !important; 
+     transition: background-color 0.77s; border: none;
+     width: 90% !important;height: auto;padding: 1.4em 1em;
+     margin: 30px 0 0 0px;
+    }
+
+.csv_btn:hover {background-color: #007bff !important;}
+
+
+ /* === サンクス　メッセージ === */
+ .sank_h2 {font-size: 18px;padding: 5px 0px;margin: 0px 0;line-height: 1.68em;}
+
+ /*=================== csv importページ
+ /* ダウンロードページ　遷移ボタン */
+
+ .dl_link > a {background: #0e84d7;color: #fff;
+    padding: 1.4em 1.6em;font-size: 1.0em !important;display: block;
+    text-align: center;
+ }
+
+
+ /*=============================== CSV csv_export.php =>  ============================== */
+ #export {width: 50%;
+    height: 1.8em;
+    font-size: 0.7em;
+    border: 1px solid #999;
+    padding: 0px 0px 0 15px;
+    border-radius: 2px;
+
+}
+
+.temp_pos {
+    position: static;
+}
+
+/* 表示ボタン */
+#h_btn {
+    margin: 0px 0 0px 0;
+}
+
+#hyouzi_box {
+    margin: 0px 0 30px 0;
+}
+
+#file_box {
+    margin: 0.8em 0 0.4em 0;
+}
+
+/* ================= csv download.php ======================================== */
+
+.ul_folder_view {
+    display: contents;
+    list-style: none;
+    position: relative;
+    left: -7%;
+}
+
+.ul_folder_view > li {
+    margin: 0px 0 35px 20px;
+    width: 80%;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.ul_folder_view > li > a {
+    font-size: 14px;
+}
+
+/* フォルダ　アイコン */
+.fas.fa-folder-open {color:#FFD775 !important;font-size: 2.2em;display: block;}
+
+
+/* === 未出力　、　出力　 span === */
+.mi_icon_ng {padding: 0px 0px 0px 0;display: inline-block;
+        margin: 0px 0 0px 0; position: relative;bottom: 3px;color: #e01818d2;}
+
+.mi_icon_ok {padding: 0px 0px 0px 0;display: inline-block;
+    margin: 0px 0 0px 0; position: relative;bottom: 3px;color: #096ad8d2;}
+
+/* 未出力 アイコン */
+.fas.fa-window-close{
+    display: inline-block;padding: 0px 10px 0px 0px;
+    font-size: 16px;color: #e01818d2;
+}
+
+  /* 出力済み　アイコン */
+  .fas.fa-check-square {
+    display: inline-block;padding: 0px 10px 0px 0px;
+    font-size: 22px;color: #096ad8d2;
+}
+
+
+/* ======================== csv download_view.php =========================== */
+
+.view_csv_item > li {
+    margin: 0 0 15px 0;
+    width: 98%;
+}
+
+.view_csv_item > li > a {
+    font-size: 14px;
+}
+
+/* Excelアイコン */
+.fas.fa-file-excel {
+    font-size: 1.8rem;
+    display: block;
+    margin: 0 0 10px 0;
+    color: #29754C;
+}
+
+/* CSV アイコン */
+.fas.fa-file-csv {
+    font-size: 1.8rem;
+    display: block;
+    margin: 0 0 10px 0;
+    color: #D07682;
+}
+
+.view_csv_item > li {margin:0 0 15px 0; width: 95%;border: 1px solid #72a4f7;}
+
+.view_csv_item > li > a {display: block;width: 80%;
+margin: 0px 0;padding: 8px 10px;}
+
+/* === 削除ボタン ===*/
+.btn-gradient-3d-orange {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 3px #c58668;
+  }
+  
+  .btn-gradient-3d-orange:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+  }
+
+
+
+
+
+/* ================= jQuery デートピッカー　（スマホ） ======================= */
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    width: 100%;
+    font-size: 1.4em !important;
+    padding: 0.4em 1.2em !important;
+}
+
+.ui-datepicker th {
+    font-size: 1.25em !important;background: #333 !important;color: #fff !important;
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    font-size: 1.15em !important;
+}
+
+
+
+
+
+} /* =============================================================== */ 
+/*=============================================== max-width END */
+/*================================================================== */
+
+/*================================== デザインB（タブレット） =======================================*/
+@media screen and (min-width: 600px) {
+/* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
+
+ /* ヘッダーカラー　*/
+ .jumbotron {
+    background: rgb(78,182,57);
+    background:linear-gradient(12deg, rgba(78,182,57,1) 0%, rgba(120,208,106.1) 63%);
+
+}
+ .m_h1 {color: #555 !important;}
+ .lead {color: #555;} 
+
+.maile_c { margin: 50px 25px 25px 25px;}
+
+/* ラベル 01 */
+.label_01 {font-size: 1.5em;margin: 0.8em 0em;}
+
+/* メールテキストエリア */
+#mail {width: 85%;height: auto;font-size: 2em;padding: 0.5em 0.5em; margin-bottom: 35px;}
+
+/* ボタン　（送信） */
+.btn {width: 85%;height: auto;font-size: 1.6em;padding: 1.2em 0.5em;letter-spacing: 0.3em;}
+
+.err_ms {font-size: 1.4em;}
+
+/* TOP 画面　index.php ボタン */
+#btn {padding: 20px 25px;font-size: 18px;
+    border: 1px solid transparent;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+transition: .44s;
+}
+
+#btn:hover {opacity: 0.63}
+
+ /*================  「戻るボタン」「送信」 ボタン =================== */
+ .e_btn {width: 55%;height: auto;padding: 0.9em;font-size: 1.2em;color: #fff; transition: ease-in;}
+ /* ボタン　戻る */
+ #send_btn {background-color:#e9ecef;  transition: background-color 0.77s; 
+    font-size: 1.2em;width: 65%;border: none;}
+    
+ #send_btn:hover {
+    border: 1px solid transparent; color:#fff !important;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+
+/* url_go インサートボタン */
+#url_go_send_btn:hover {border: 1px solid transparent; color:#fff !important;
+background-color: #0e84d7 !important;
+background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+/* url_go インサートキャンセル　ボタン */
+#url_go_back_btn:hover {
+    border: 1px solid transparent;color:#fff !important;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+
+ /* ボタン　送信 */
+ #back_btn {background-color:#e9ecef; transition: background-color 0.77s; 
+    border: none;font-size: 1.2em;width: 65%;}
+
+ #back_btn:hover {
+    border: 1px solid transparent;color:#fff !important;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+
+
+/*================================== url_go register.php ====================== */
+
+/* === 生年月日 === */
+.jsc-select-bold {
+    color: #333;font-size: 16px !important;font-weight: 700;
+}
+
+/* === 文字の　年　月　日 span === */
+.period-m {
+    font-weight: 700;font-size: 14px;margin: 0 5px;vertical-align: bottom;
+}
+
+/* === 西暦 === */
+.app_input_form {
+    background-color: #fff;border: 1px solid #ccc; -webkit-border-radius: 5px;
+    border-radius: 5px;-webkit-box-sizing: border-box;box-sizing: border-box;
+    font-size: 14px;height: 41px;outline: 0;
+    padding-bottom: 7px;padding-left: 9px;padding-right: 9px;padding-top: 7px;
+}
+
+/* === 月 === */
+.date-birth-month {
+    background-color: #fff;border: 1px solid #ccc; -webkit-border-radius: 5px;
+    border-radius: 5px;-webkit-box-sizing: border-box;box-sizing: border-box;
+    font-size: 14px;height: 41px;outline: 0;
+    padding-bottom: 7px;padding-left: 9px;padding-right: 9px;padding-top: 7px;
+}
+
+/* === 日 === */
+.date-birth-day {
+    background-color: #fff;border: 1px solid #ccc; -webkit-border-radius: 5px;
+    border-radius: 5px;-webkit-box-sizing: border-box;box-sizing: border-box;
+    font-size: 14px;height: 41px;outline: 0;
+    padding-bottom: 7px;padding-left: 9px;padding-right: 9px;padding-top: 7px;
+}
+
+
+ /* ホバー　色変更　共通ボタン */
+ .csv_btn {background-color:#e9ecef !important; 
+    transition: background-color 0.77s; border: none;
+    width: 90% !important;height: auto;padding: 1.4em 1em !important;
+   }
+
+.csv_btn:hover {
+    border: 1px solid transparent;color:#fff !important;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+/* ホバー　色変更　共通ボタン */
+.csv_btn_2 {background-color:#e9ecef !important; 
+    transition: background-color 0.77s; border: none;
+    width: 90% !important;height: auto;padding: 1.4em 1em !important;
+   }
+
+.csv_btn_2:hover {
+    border: 1px solid transparent;
+    background-color: #0e84d7 !important;
+    background-image: linear-gradient(
+90deg, rgba(0, 110, 188, 0) 0%, #006ebc 100%);
+}
+
+
+ /* === サンクス　メッセージ === */
+ .sank_h2 {font-size: 22px;padding: 5px 0px;margin: 0px 0;line-height: 1.68em;}
+
+/* === p === */
+.p_01 {    font-size: 22px;font-weight: 600;color: #333;}
+
+
+
+#date_target {font-size: 2em;}
+#date_target_02 {font-size: 2em;}
+
+ /* フッター */
+ footer {position: fixed;bottom: 0;width: 100%;}
+
+
+ /* input フォーカス関係 */
+
+ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: #E0D5C6;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #e0d5c6;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e0d5c6;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #e0d5c6;
+}
+
+
+/* === 必須項目 === */
+.mark-required {
+    position: relative;top: 0px;right: -3%;
+    padding: 5px 6px; background-color: #FF9294; color: #fff;
+    font-size: 0.7em;line-height: 1;text-align: center;
+    border-radius: 2px;
+}
+
+
+/*================ カレントページ　表示エリア ================= */
+
+.form-flow-active {
+    color: #fff !important;
+    background-color: #47cc64;
+}
+.form-flow-list-wrap {
+    position: relative;
+    padding-left: 0%;
+}
+
+
+.form-flow-list-allow {
+    position: relative;
+}
+
+
+.form-flow-list-wrap {
+    position: relative;padding-left: 3%;border: 3px solid #47cc64;
+    border-radius: 10px;color: #6c757d;font-size: 0.98em;font-weight: 600;
+}
+
+.form-flow-list-wrap .form-flow-list-no {
+    position: absolute;top: 14px;left: -13%;
+    width: 40px;height: 40px;border-radius: 50%;
+    color: #fff;background-color: #6c757d; line-height: 1.2;
+    font-size: 2rem;
+}
+
+.form-flow-list-allow::after {
+    position: absolute;top: 27%;left: 43%;
+    width: 0px;height: 0px;display: block;
+    content: "";border-top: 15px solid transparent;
+    border-left: 15px solid transparent; border-left-color: transparent;
+    border-right: 0px solid transparent;border-bottom: 15px solid transparent;
+    border-left-color: #47cc64;
+}
+
+/* === フォントサイズ === */
+.font_1 {font-size: 1.4em;}
+
+.font_a {font-size: 1.4em !important;}
+
+/* ======================================== フォーム入力　エリア =========================== */
+.form-input-tbl-inner dt {
+    display: table-cell;background: #f5f5f0;
+    font-size: 14px;vertical-align: top;padding-top: 20px;
+    padding-right: 10px;padding-bottom: 20px;padding-left: 15px;
+    width: 180px;text-align: right;word-break: break-all; margin: 0px 0 10px 0;
+}
+
+.form-input-tbl-inner dd {
+    display: table-cell; vertical-align: top; padding-left: 15px;
+    padding-top: 9px;padding-bottom: 9px;padding-right: 15px;
+}
+
+.w_320 {width: 320px !important;}
+
+.w_160 {width: 160px !important;}
+
+.w_540 {width: 540px !important;}
+
+.form_text_box {width: 540px !important;}
+
+
+.form-control {
+    letter-spacing: 0.08em;
+}   
+
+/* プライバシーポリシー */
+
+#policy_box {
+    text-align: center;background: #f5f5f0;
+    padding: 15px 0px; margin: 20px 5px;
+}
+
+
+
+/* 銀行検索　表示・非表示　ボタン */
+
+#cp_btn_icon {
+    display: block;
+}
+
+/* アイコン */
+.fas.fa-angle-down {color: #4CAF50;}
+
+a.cp_btn {
+	position: relative;
+	display: block;
+	width: 195px;
+	padding: 0.8em;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: #4CAF50;
+}
+a.cp_btn:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 4px;
+	top:100%;
+	left: 0;
+	border-radius: 3px;
+	background:#4CAF50;
+	transition: .4s;
+}
+a.cp_btn:hover:before {
+	top: calc(100% - 3px);
+}
+
+
+/* ================= jQuery デートピッカー ======================= */
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    width: 45%;
+    font-size: 1.4em !important;
+    padding: 0.4em 1.2em !important;
+}
+
+.ui-datepicker th {
+    font-size: 1.25em !important;background: #333 !important;color: #fff !important;
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    font-size: 1.15em !important;
+}
+
+.temp_pos {
+    position: relative !important;
+    top: 45px !important;
+}
+
+
+/*=============================== CSV csv_export.php =>  ============================== */
+#export {width: 55%;height: 3.6em;
+    font-size: 1.2em;border: 1px solid #999;
+    padding: 0px 0px 0 15px;border-radius: 2px;
+    margin: -15px 0 0px 0;position: relative;top: -25px;
+}
+
+
+.temp_pos {
+    position: relative !important;
+    top: 45px !important;
+}
+
+/*============= チェックボックス　未入力チェック =============== */
+.ECM_CheckboxInput {
+    padding: 12px 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    }
+    .ECM_CheckboxInput-Input {
+    margin: 0;
+    width: 0;
+    opacity: 0;
+    }
+    .ECM_CheckboxInput:hover{
+    background: rgba(0,0,0,.05) !important;
+    }
+    .ECM_CheckboxInput-Input:focus + .ECM_CheckboxInput-DummyInput{
+    border: dashed 2px #333333;
+    }
+    .ECM_CheckboxInput-Input:checked + .ECM_CheckboxInput-DummyInput {
+    background: #333333;
+    }
+    .ECM_CheckboxInput-Input:checked + .ECM_CheckboxInput-DummyInput::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 4px;
+    border-radius: 2px;
+    transform: translate(-6px, 5px) rotateZ(-135deg);
+    transform-origin: 2px 2px;
+    background: #FFFFFF;
+    }
+    .ECM_CheckboxInput-Input:checked + .ECM_CheckboxInput-DummyInput::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 76%;
+    height: 4px;
+    border-radius: 2px;
+    transform: translate(-6px, 5px) rotateZ(-45deg);
+    transform-origin: 2px 2px;
+    background: #FFFFFF;
+    }
+    .ECM_CheckboxInput-DummyInput {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: solid 2px transparent;
+    background: rgba(0,0,0, .1);
+    border-radius: 4px;
+    }
+    .ECM_CheckboxInput-LabelText {
+    margin-left: 12px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    }
+
+/* === 未出力　、　出力　 span === */
+.mi_icon_ng {padding: 0px 0px 0px 0;display: inline-block;
+    margin: 0px 0 0px 0; position: relative;bottom: 3px;color: #e01818d2;}
+
+.mi_icon_ok {padding: 0px 0px 0px 0;display: inline-block;
+margin: 0px 0 0px 0; position: relative;bottom: 3px;color: #096ad8d2;}
+
+    /* 未出力 アイコン */
+.fas.fa-window-close{
+    display: inline-block;padding: 0px 10px 0px 0px;
+    font-size: 22px;color: #e01818d2;
+}
+
+    /* 出力済み　アイコン */
+.fas.fa-check-square {
+    display: inline-block;padding: 0px 10px 0px 0px;
+    font-size: 22px;color: #096ad8d2;
+}
+
+
+/* ================= csv download.php ======================================== */
+
+.ul_folder_view {display: flex; list-style: none;position: relative;left: -7%;}
+
+.ul_folder_view > li {margin: 0px 0 35px 20px;width: 32%;padding: 15px 30px;font-weight: 500;
+font-size: 15px;}
+
+/* フォルダ　アイコン */
+.fas.fa-folder-open {color:#FFD775;font-size: 2.2em;}
+
+
+/*======================== csv download_view.php ======================== */
+
+/* Excel　アイコン color: #29754C; */
+.fas.fa-file-excel { font-size: 3.5rem;display: block;margin: 0 0 10px 0;color: #fff;
+    padding: 35px 30px;position: relative;left: 28%;}
+
+/* CSV　アイコン color: #D07682;  */
+.fas.fa-file-csv {font-size: 3.5rem;display: block;margin: 0 0 10px 0;color: #fff;
+    padding: 35px 30px;position: relative;left: 28%;}
+
+
+/* 戻るボタン */
+.view_back_btn {
+    display: block;padding: 20px 35px;
+    background: dodgerblue;width: 25%;text-align: center;
+    color: #fff !important;
+}
+
+
+.t {
+    display: flex;border-radius: 6px;
+    list-style-type: none;
+}
+
+.tt {
+    display: flex;border-radius: 6px;
+    list-style-type: none;
+}
+
+.item_xlsx {
+    margin: 10px 10px 0 10px;
+}
+
+.item_csv {
+    margin: 10px 10px 0 10px;
+}
+
+.item_csv_box {
+    background-image: linear-gradient(45deg, #cd6d71 0%, #c75b5f 100%);
+    border-radius: 4px;
+}
+
+.item_xlsx_box {
+    background-image: linear-gradient(45deg, #29754C 0%, #4a7e62 100%);
+    border-radius: 4px;
+}
+
+
+.item_csv_box > a {
+    color: #fff !important;font-size: 13px;
+}
+
+.item_xlsx_box > a {
+    color: #fff !important;font-size: 13px;
+}
+
+.li_csv_item {color: #fff;font-size: 13px;
+margin: 0px 2px 0 10px;display: block; padding: 0px 0px 10px 0;}
+
+/*===== ダウンロードボタン ====== */
+/*  background-image: linear-gradient(45deg, #007bff 0%, #4ca2fd 100%); */
+
+.btn-gradient-3d-dl {
+    display: inline-block;padding: 0.5em 1em;text-decoration: none !important;border-radius: 4px;
+    color: #000 !important; border: 2px solid #4eb639;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    transition: .4s; margin: 10px 0;
+}
+
+.btn-gradient-3d-dl:hover {
+    background:#4eb639;box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);border-bottom: none;border: none;
+    color: #fff !important;
+  }
+
+/*============ 削除ボタン ============= */
+/*  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%); */
+.btn-gradient-3d-orange {
+    display: inline-block;padding: 0.5em 1em;
+    text-decoration: none;border-radius: 4px;color: #000;
+    border: 2px solid #4eb639;box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    transition: .4s;margin: 10px 0;
+  }
+  
+  .btn-gradient-3d-orange:hover {
+    background: rgba(124, 10, 52, 1.0); box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);border-bottom: none;border: none;
+    color: #fff;
+  }
+
+
+
+
+} /*=============================== END CSS ============================
+
