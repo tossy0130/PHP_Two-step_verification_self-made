@@ -18,7 +18,7 @@ function DB_delete_column($p_h)
     //================================  
     $dsn = 'mysql:dbname=d05618yadb1;host=localhost;port=3306';
     $user = 'd05618ya';
-    $password = 'deli7332+C';
+    $password = '';
 
     try {
 
